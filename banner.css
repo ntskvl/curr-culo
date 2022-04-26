@@ -1,0 +1,43 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.banner{
+    background-image: url("FUNDO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;      
+    height: 100vh;
+}
+
+.navbar-light .navbar-brand{
+    color: #FFEBD2;
+    font-size: 45px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #FFEBD2;
+    font-size: 20px;
+}
+
+.Paragrafo-img{
+    display: grid;
+    grid-template-areas: 
+    "paragrafo circulo";
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.paragrafo{
+    align-self: center;
+    color: #FFEBD2;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.circulo{
+    background-image: url("download\ \(2\).jpg");
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+
+
